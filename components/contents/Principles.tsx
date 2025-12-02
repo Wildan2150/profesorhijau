@@ -66,7 +66,7 @@ export const PrinciplesContent: React.FC<{ subModuleId: string }> = ({ subModule
   ) => (
     <div className="space-y-8 animate-in slide-in-from-bottom-5 duration-500">
       {/* Header Section */}
-      <div className="bg-gradient-to-br from-emerald-50 to-teal-50 p-6 rounded-3xl border border-emerald-100">
+      <div className="bg-linear-to-br from-emerald-50 to-teal-50 p-6 rounded-3xl border border-emerald-100">
         <div className="flex flex-col md:flex-row gap-6 items-start">
             <div className="bg-white p-4 rounded-2xl shadow-sm text-emerald-600 shrink-0">
                 {icon}
@@ -229,7 +229,7 @@ export const PrinciplesContent: React.FC<{ subModuleId: string }> = ({ subModule
             "Beralih dari fosil ke biomassa.",
             <>
                 <p>Sebagian besar produk kimia (plastik, obat, cat) saat ini berasal dari minyak bumi (sumber daya tak terbarukan yang akan habis). Kimia Hijau mendorong penggunaan bahan baku dari pertanian atau limbah biomassa.</p>
-                <p>Konsepnya adalah <strong>Siklus Karbon Tertutup</strong>: Tanaman menyerap CO2 {'->'} Diolah jadi produk {'->'} Produk terurai/dibakar melepas CO2 {'->'} Diserap lagi oleh tanaman.</p>
+                <p>Konsepnya adalah <strong>Siklus Karbon Tertutup</strong>: Tanaman menyerap CO2 → Diolah jadi produk → Produk terurai/dibakar melepas CO2 → Diserap lagi oleh tanaman.</p>
             </>,
             {
                 bad: "Membuat plastik (polietilena) dari cracking minyak bumi.",
@@ -247,7 +247,7 @@ export const PrinciplesContent: React.FC<{ subModuleId: string }> = ({ subModule
             "8. Kurangi Turunan",
             "Sederhanakan langkah reaksi.",
             <>
-                <p>Dalam sintesis organik yang rumit, kimiawan sering menggunakan "Gugus Pelindung" (Blocking Groups) untuk melindungi bagian molekul tertentu agar tidak ikut bereaksi. Tapi ini berarti: Pasang pelindung (1 tahap) {'→'} Reaksi Utama {'→'} Lepas pelindung (1 tahap).</p>
+                <p>Dalam sintesis organik yang rumit, kimiawan sering menggunakan "Gugus Pelindung" (Blocking Groups) untuk melindungi bagian molekul tertentu agar tidak ikut bereaksi. Tapi ini berarti: Pasang pelindung (1 tahap) → Reaksi Utama → Lepas pelindung (1 tahap).</p>
                 <p>Ini menambah langkah kerja, bahan kimia, dan limbah. Kimia Hijau menyukai reaksi yang selektif yang langsung menuju sasaran tanpa perlu "topeng".</p>
             </>,
             {
